@@ -1,27 +1,47 @@
 # LoadManager
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
+Calculadora de Parcelas de Financiamento
 
-## Development server
+## Demo
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+[Clique aqui para acessar o sistema](https://felipedurar.github.io/loan-man/public/)
 
-## Code scaffolding
+## Pra que serve?
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Calcula a amortização e juros de cada parcela do financiamento, realiza de forma simples a previsão dos valores dos adiantamentos das parcelas, calculo do valor total e economizado, entre outros..
 
-## Build
+## Imagens
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+![alt text](assets/Screenshot_1.jpg)
 
-## Running unit tests
+## Compilar para o pages
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```ng build --base-href="https://felipedurar.github.io/loan-man/public/"```
 
-## Running end-to-end tests
+## Executar Localmente
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```ng serve```
 
-## Further help
+## Licença
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+MIT License
+
+Copyright (c) 2023 Felipe Durar
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
